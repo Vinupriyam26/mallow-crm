@@ -1,26 +1,30 @@
-# MallowCRM
+# Mallow CRM
 
-MallowCRM is a Single Page Application (SPA) for managing users.  
-It allows login, viewing users in card or list view, creating, editing, deleting users, searching, and pagination.  
+This is a **React + Redux mini CRM application** developed as part of Mallow Technologies recruitment task.
 
 ## Features
-- Login with API integration
-- Protected routes
-- Users CRUD (Create, Read, Update, Delete)
-- Card and List view toggle
-- Client-side search and pagination
-- Loading states and error handling
-- Responsive design
+- **Login**: Simple login form with validation.
+- **User Management**: Create, Edit, and Delete users.
+- **Responsive UI**: Built with **TailwindCSS** and **Ant Design** for modern styling.
+- **View Options**: List view and Card view for users.
+- **Pagination & Search**: Easily browse users and filter by name.
 
-## Setup
-1. Clone the repository  
-2. Run `npm install`  
-3. Copy `.env.example` to `.env`  
-4. Run `npm start`  
+## Technologies Used
+- React 19
+- Redux Toolkit
+- Ant Design
+- TailwindCSS
+- Vercel for deployment
+- Axios for API requests
 
-## Login Credentials
-- Email: `eve.holt@reqres.in`  
-- Password: `cityslicka`  
+## Demo
+- Hosted Application: [https://mallow-crm.vercel.app/login](https://mallow-crm.vercel.app/login)
 
-## Hosted Link
-[Your live app URL here]  
+## Installation
+To run locally:
+
+```bash
+git clone https://github.com/Vinupriyam26/mallow-crm.git
+cd mallow-crm
+npm install
+npm start
